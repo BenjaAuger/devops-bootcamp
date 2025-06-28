@@ -1,8 +1,8 @@
 # devops-bootcamp
 El paso a paso de mi inico de devops de cero a experto
 
-  Instalar los progrmas
-    Primero instalar WSL para ocupar el entorno linux
+ # Instalar los progrmas
+   # Primero instalar WSL para ocupar el entorno linux
       - En powershell como administrador
       - Escribir comando wsl --install 
       - si tienes errores ocupar estos comandos, verificar si el hyper-v y en la bios la virtuzalicacion estan activos   
@@ -13,19 +13,19 @@ El paso a paso de mi inico de devops de cero a experto
       - Actualizar linux (sudo apt update && sudo apt upgrade -y)
       - Instalar herramientas  (sudo apt install curl unzip git -y) 
       - Listo probrar comandos basicos de linux, ls, pwd, whoami
-    Instalar Git
+   # Instalar Git
       - Verificar si esta instalado git --version
       - si no ocupar 
         sudo apt update
         sudo apt install git -y
-    Instalar VS Code
+   # Instalar VS Code
       - Instalar las siguientes extensiones
         - Docker
         - GitHub Copilot (opcional)
         - YAML
         - Terraform
         - Remote - WSL (solo si usas WSL)
-    Instalar Docker
+   # Instalar Docker
       - Verificar si esta docker --version
       - Si no instalar en wsl con los siguientes comandos
         sudo apt update
@@ -34,7 +34,7 @@ El paso a paso de mi inico de devops de cero a experto
         sudo systemctl enable docker
         sudo usermod -aG docker $USER
      - Luego verificar con el comando docker run hello-world, si aparece "Hello from Docker!" → ✔️ ¡Éxito!
-   Instalar AWS CLI
+  # Instalar AWS CLI
      - Verificar con aws --version
      - Si no ocupar
        sudo apt update
@@ -43,7 +43,7 @@ El paso a paso de mi inico de devops de cero a experto
        unzip awscliv2.zip
        sudo ./aws/install
      - Revisar con comando aws --version 
-   Instalar Terraform CLI
+  # Instalar Terraform CLI
      - Verificar con terraform -help
      - Si no ocupar
        sudo apt install -y gnupg software-properties-common curl
