@@ -7,7 +7,7 @@ El paso a paso de mi inico de devops de cero a experto
 
    
 
- # Instalar los progrmas
+ # Instalar los programas
    # Primero instalar WSL para ocupar el entorno linux
       - En powershell como administrador
       - Escribir comando wsl --install 
