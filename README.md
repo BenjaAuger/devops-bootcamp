@@ -1,6 +1,12 @@
 # devops-bootcamp
 El paso a paso de mi inico de devops de cero a experto
 
+# Que es devops?
+ - DevOps es un conjunto de prácticas, filosofías y herramientas que buscan mejorar la colaboración y comunicación entre los equipos de desarrollo y operaciones de software. Su objetivo principal es acelerar el ciclo de vida del desarrollo, desde la creación hasta la implementación, permitiendo la entrega continua de software de alta calidad y valor para el cliente.
+   ![33516ef6-48d4-415b-b747-3bcc3bd2b00d](https://github.com/user-attachments/assets/4af943d6-daf0-4d1a-851a-b78d01c8538e)
+
+   
+
  # Instalar los progrmas
    # Primero instalar WSL para ocupar el entorno linux
       - En powershell como administrador
